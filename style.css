@@ -1,0 +1,247 @@
+body {
+    background-color: black;
+    font-family: 'Lexend Mega', sans-serif;
+} 
+ #background {
+    background-color: gray !important;
+    text-align: center;
+    height: 850px ;
+   width: 1877px;
+}
+#boxDesc1 {
+    display: flex;
+}
+.navBox {
+    display: flex;
+    height: 55px;
+    width: 1880px;
+    background: black;
+    justify-content: space-between;
+    margin:0px;
+}
+.logo {
+    height: 50px;
+    width:50px;
+}
+#box3 {
+    flex-direction: column;
+  }
+  #box4 {
+      flex-direction: row;
+  }
+#desc {
+    grid-area: 1 / 1 / 2 / 5 ;
+    height:60px !important;
+    margin: 30px;
+    background: lightgray !important;
+    text-align: center;
+    font-size: 29px;
+    border: 2px solid lightgray !important;
+}
+.boxdown {
+    display: flex;
+    height: 55px;
+    width: 1880px;
+    background: black;
+    font-size: 10px !important;
+    justify-content: space-around;
+    margin-top: 10px;
+    
+}
+.boxdown1 {
+    display: flex;
+    height: 60px;
+    width: 1880px;
+    background: black;
+    margin-top: 400px;
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+.boxdown3 { 
+    display: flex;
+    height: 60px;
+    width: 1880px;
+    background: black;
+    margin-top: 350px;
+    margin-bottom: 0px;
+    justify-content: space-around;
+}
+.title {
+    color: white;
+    font-size: 40px;
+}
+.titled {
+    color: white;
+    font-size: 20px;
+}
+
+#button{
+        grid-area: 1 /1/1/2;
+        
+}
+
+#bodyarea{
+display: grid;
+grid-gap: 25px;
+grid-template-columns: auto auto auto auto ;
+grid-template-rows: 50px 50px 50px 50px 50px;
+background:lightgray;
+border: 2px solid black;
+height: 850px ;
+width: 1877px;
+
+
+}
+
+#txt{
+    border: 1px solid white !important;
+    height: 25px !important;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+#txt.hover{
+
+}
+#bodyarea div{
+    background: white;
+     height:500px;
+     margin: 30px;
+     border:1px solid black;
+    text-align: center
+}
+.img{
+    height: 200px;
+    width: 200px;
+    
+}
+.btn{
+    color: white;
+    background: black;
+    width: 190px;
+    height: 30px;
+
+}
+.btn1{
+    color: white;
+    background: black;
+    width: 290px;
+    height: 40px;
+}
+.btn:hover{
+    color:blue;
+}
+.item0:hover{
+    box-shadow: 10px 5px 5px black;
+}
+.item1:hover{
+    box-shadow: 10px 5px 5px black;
+}
+.item2:hover{
+    box-shadow: 10px 5px 5px black;
+}
+.item3:hover{
+    box-shadow: 10px 5px 5px black;
+}
+
+.descBox {
+    display: flex;
+    margin: 10px;
+    
+}
+
+.descBox div {
+    margin: 10px;
+    padding: 10px;
+   
+}
+
+.flex-boxc {
+    display: flex;
+    
+    margin: 10px;
+}
+
+.flex-boxc div {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+  
+#boxc div {
+    flex-basis: 25%;
+}
+
+.inpt{
+      width:230px;
+      height: 35px;
+}
+#map{
+    width ="400" ;
+    height="300";
+    style="border:none"
+}
+
+
+#id_more {
+    display: flex;
+}
+.box_more {
+    padding: 30px;
+    border: 2px solid black;
+    flex-basis: 33%;
+}
+  
+  
+ 
+ 
+@media (max-width: 1024px) {
+#bodyarea{
+          display: flex;
+          flex-direction: column;
+          height:2500px ;
+          width: 450px;
+          background: lightgray;
+}
+#desc{
+       height: 12px;
+       width: 120px;
+}
+#i1{
+        width:25px;
+        height: 25px;
+}
+.boxdown{
+       height: 50px;
+       width: 460px;
+       justify-content: space-between
+}
+.boxdown1{
+        height: 50px;
+        width: 460px;
+        justify-content: space-between
+}
+.boxdown3{
+        height: 50px;
+        width: 460px;
+        justify-content: space-between
+}
+    
+       
+#id_more {
+        flex-direction: column;
+}
+.box_more {
+        height: 100px;
+        width: 500px;
+        border: 2px solid black;
+        flex-basis: 100%;
+}
+.navBox{
+        display: flex;
+        height: 155px;
+        width: 350px;
+        background: black;
+            justify-content: space-around;
+           
+}
+}
